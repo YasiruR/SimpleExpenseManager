@@ -13,9 +13,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.ui.MainActivity;
 
-/**
- * Created by Kusal on 2016-11-18.
- */
+
 public class PersistantAccountDAO implements AccountDAO {
 
     DatabaseHelper db = MainActivity.dbconnector;
